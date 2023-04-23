@@ -22,5 +22,4 @@ Depend on this module and in your onchange handler, add a key ``action`` to the 
             ...
         },
     }
-    
 ```
