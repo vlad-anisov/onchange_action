@@ -11,7 +11,7 @@ Usage
 
 Depend on this module and in your onchange handler, add a key ``action`` to the dictionary of the result which contains the definition of an action to execute:
 
-.. code:: python
+```python
 
     {
         'value': ....,
@@ -22,3 +22,5 @@ Depend on this module and in your onchange handler, add a key ``action`` to the 
             ...
         },
     }
+    
+```
