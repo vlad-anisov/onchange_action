@@ -1,14 +1,16 @@
-<h1 id="onchange-actions">Onchange actions</h1>
+<h1 id="onchange-actions">Onchange action</h1>
 <p>This module allows you to return an action (<code>ir.actions.*</code>) from an onchange handler.</p>
 <p>This way, you can have much more elaborate message boxes or simply show a whole wizard or do whatever else is possible with actions on the client side.</p>
 <h1 id="usage">Usage</h1>
 <p>Depend on this module and in your onchange handler, add a key <code>action</code> to the dictionary of the result which contains the definition of an action to execute:</p>
-{
-    <span class="hljs-string">'value'</span>: ....,
-    <span class="hljs-string">'domain'</span>: ....,
-    <span class="hljs-string">'action'</span>: {
-        <span class="hljs-string">'type'</span>: <span class="hljs-string">'ir.actions.act_window'</span>,
-        <span class="hljs-string">'res_model'</span>: <span class="hljs-string">'my.wizard'</span>,
-        ...
-    },
-}
+<pre><code class="lang-python">
+    {
+        <span class="hljs-string">'value'</span>: ....,
+        <span class="hljs-string">'domain'</span>: ....,
+        <span class="hljs-string">'action'</span>: {
+            <span class="hljs-string">'type'</span>: <span class="hljs-string">'ir.actions.act_window'</span>,
+            <span class="hljs-string">'res_model'</span>: <span class="hljs-string">'my.wizard'</span>,
+            ...
+        },
+    }
+</code></pre>
