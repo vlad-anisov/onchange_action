@@ -3,14 +3,14 @@
 <p>This way, you can have much more elaborate message boxes or simply show a whole wizard or do whatever else is possible with actions on the client side.</p>
 <h1 id="usage">Usage</h1>
 <p>Depend on this module and in your onchange handler, add a key <code>action</code> to the dictionary of the result which contains the definition of an action to execute:</p>
-<pre><code class="lang-python">
-    {
-        <span class="hljs-string">'value'</span>: ....,
-        <span class="hljs-string">'domain'</span>: ....,
-        <span class="hljs-string">'action'</span>: {
-            <span class="hljs-string">'type'</span>: <span class="hljs-string">'ir.actions.act_window'</span>,
-            <span class="hljs-string">'res_model'</span>: <span class="hljs-string">'my.wizard'</span>,
-            ...
-        },
-    }
-</code></pre>
+<pre>
+{
+    <span class="hljs-string">'value'</span>: ....,
+    <span class="hljs-string">'domain'</span>: ....,
+    <span class="hljs-string">'action'</span>: {
+        <span class="hljs-string">'type'</span>: <span class="hljs-string">'ir.actions.act_window'</span>,
+        <span class="hljs-string">'res_model'</span>: <span class="hljs-string">'my.wizard'</span>,
+        ...
+    },
+}
+</pre>
