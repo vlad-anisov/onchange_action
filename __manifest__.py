@@ -1,6 +1,6 @@
 {
     "name": "Onchange Action",
-    "version": "16.0",
+    "version": "15.0",
     "category": "",
     "summary": "Onchange Action",
     "description": """ Onchange Action """,
@@ -17,7 +17,5 @@
         ],
     },
     "application": True,
-    'price': 0.00,
-    'currency': 'USD',
 }
 
